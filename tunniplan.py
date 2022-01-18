@@ -1,7 +1,23 @@
 from tkinter import*
 root=Tk()
 
-Label(text="Имя:").grid(row=0,column=0)
+Label(text="ESMASPÄEV:").grid(row=0,column=0)
+table_name=Entry(width=30)
+table_name.grid(row=0,column=1,columnspan=3)
+
+Label(text="TEISIPÄEV:").grid(row=0,column=0)
+table_name=Entry(width=30)
+table_name.grid(row=0,column=1,columnspan=3)
+
+Label(text="KOLMAPÄEV:").grid(row=0,column=0)
+table_name=Entry(width=30)
+table_name.grid(row=0,column=1,columnspan=3)
+
+Label(text="NELJAPÄEV:").grid(row=0,column=0)
+table_name=Entry(width=30)
+table_name.grid(row=0,column=1,columnspan=3)
+
+Label(text="REEDE:").grid(row=0,column=0)
 table_name=Entry(width=30)
 table_name.grid(row=0,column=1,columnspan=3)
 
