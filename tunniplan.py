@@ -29,8 +29,8 @@ Label(text="окно",bg="#730086",borderwidth=1,relief="flat").grid(row=1,rowsp
 ru=Button(text="русский язык",bg="#FF35A0",borderwidth=1,relief="flat").grid(row=1,rowspan=2,column=9,columnspan=2,sticky=W+E+N+S)
 dopm=Button(text="доп.математика",bg="#fd41bd",borderwidth=1,relief="flat").grid(row=1,rowspan=2,column=11,sticky=W+E+N+S)
 
-Label(text=" ",bg="#c2abff",borderwidth=1,relief="groove").grid(row=6,column=3,sticky=W+E+N+S)
-doph=Button(text="доп.химия",borderwidth=1,relief="flat",bg="#C929CB").grid(row=3,rowspan=2,column=3,sticky=W+E+N+S)
+Label(text=" \n",bg="#c2abff",borderwidth=1,relief="groove").grid(row=6,column=3,sticky=W+E+N+S)
+doph=Button(text="доп.химия",borderwidth=1, height=4, relief="flat",bg="#C929CB").grid(row=3,rowspan=2,column=3,sticky=W+E+N+S)
 py1=Button(text="программирование",bg="#c57eff",borderwidth=1,relief="flat").grid(row=3,rowspan=2,column=4,columnspan=3,sticky=W+E+N+S)
 Label(text="окно",bg="#730086",borderwidth=1,relief="flat").grid(row=3,rowspan=2,column=7,sticky=W+E+N+S)
 sc=Button(text="физика",bg="#9a76fa",borderwidth=1,relief="flat").grid(row=3,rowspan=2,column=8,columnspan=2,sticky=W+E+N+S)
