@@ -2,21 +2,34 @@ from tkinter import*
 root=Tk()
 root.configure(bg="#c2abff")
 
-tunniplan={}
-with open("TextFile1.txt","r", encoding="utf-8-sig") as info_:
-    for i in info_:
-        tnpl,plan=i.strip().split("   ")
-        uroki[tnpl.strip()]=plan.strip()
+Tunniplan={}
+#with open("TextFile1.txt","r") as f:
+#	for i in f: # создаем цикл по кол-ву строк
+#		k,v=i.strip().split(" -") # отделяем слова на строчке в строчке по знаку " - "
+#		Lessons[k.strip()]=v.strip() # добавляем в словарь
+with open("TextFile1.txt","r", encoding="utf-8-sig") as o:
+    for i in o:
+        t,p=i.strip().split("-")
+        Tunniplan[t.strip()]=p.strip()
+
+def newwind(a):
+	a1=a.replace(" \n", "")
+	#showinfo("tunni informatsioon",f"{a}")
+	newwd=Toplevel() #tk()
+	abc=Label(newwd,text=Lessons.get(a1),font="Calibri 23",fg="black",justify=CENTER)
+	newwd.geometry("500x90")
+	abc.pack()
+
 
 def info(a):
     a_=a.replace(" \n","")
-    infoaken=Toplevel()
-    ak=Label(infoaken,text=uroki.get(a_),font="Arial 26",fg="black",justify=CENTER)
-    infoaken.geometry("500x150")
+    infokno=Toplevel()
+    okowko=Label(infokno,text=uroki.get(a_),font="Arial 26",fg="black",justify=CENTER)
+    infokno.geometry("500x150")
     ak.pack()
 
 def svoboda():
-	showinfo(title="окно",message="отдыхать и кушать!!!")
+	showinfo(title="окно",message="отдыхать и кушать!!!") 
 def dopest():
 	showinfo(title="доп.эстонский",message="эстонский для двоечников\n Учитель - Olesja Ojamäe\n Кабинет - B234")
 def dopest():
@@ -43,8 +56,7 @@ def rak():
 	showinfo(title="офисные программы",message="офисные программы \n Учитель - Merkulova\n Кабинет - E010")
 def est():
 	showinfo(title="эстонский",message="эстонский\n Учитель - Olesja Ojamäe\n Кабинет - B234")
-def anglt():
-	showinfo(title="доп.английский",message="английский для двоечников\n Учитель - Olga Borodina\n Кабинет - B227")
+
 def angl():
 	showinfo(title="английский",message="английский\n Учитель - Olga Borodina\n Кабинет - B227")
 

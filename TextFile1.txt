@@ -1,24 +1,24 @@
 dope2 - эстонский для двоечников, учитель Олеся Оямяэ, кабинет Б234
 log - логистика, учитель Инесса Климанская, кабинет Б002
-mat - 
-ru - 
-dopm - 
-doph - 
-py1 - 
-sc - 
-dope - 
-izo - 
-pe - 
-log2 - 
-py2 - 
-en1
-exl2
-exl1
-est2
-et1
-exl22
-py3
-exl11
-eng2
+mat - математика\n Учитель - Nadewda Voronova\n Кабинет - B133
+ru - письмо и речь\n Учитель - Ljudmila Mihhajlova\n Кабинет - B221
+dopm - математитка для двоечников\n Учитель - Nadezda Voronova\n Кабинет - B133
+doph - химия для двоечников\n Учитель - Svetlana Pisestkaja\n Кабинет - B144
+py1 - пайтон и гитхаб\n Учитель - Marina Oleinik\n Кабинет - E007
+sc - физика\n Учитель - Nadewda Voronova\n Кабинет - B133
+dope - эстонский для двоечников\n Учитель - Alina Laanevali-Toots\n Кабинет - B236
+izo - рисуем \n Учитель - Aleksandrova\n Кабинет - B232
+pe - физра\n Учитель - Maksim\n Кабинет - спортзал А корпус 
+log2 - логистика\n Учитель - Инесса Климанская\n Кабинет - B002
+py2 - пайтон и гитхаб\n Учитель - Marina Oleinik\n Кабинет - E007
+en1 - английский \n 1 группа \n Учитель - Poskotinova Olga \n Кабинет - B227
+exl2 - офисные программы \n 2 группа \n Учитель - Merkulova\n Кабинет - E010
+exl1 - офисные программы \n 1 группа \n Учитель - Merkulova\n Кабинет - E010
+est2 - эстонский\n Учитель - Olesja Ojamäe\n Кабинет - B234
+et1 - эстонский для двоечников\n Учитель - Alina Laanevali-Toots\n Кабинет - B236
+exl22 - офисные программы \n 2 группа \n Учитель - Merkulova\n Кабинет - E010
+py3 - пайтон и гитхаб\n Учитель - Marina Oleinik\n Кабинет - E007
+exl11 - офисные программы \n 1 группа \n Учитель - Merkulova\n Кабинет - E010
+eng2 - английский\n Учитель - Olga Borodina\n Кабинет - B227
 
 
